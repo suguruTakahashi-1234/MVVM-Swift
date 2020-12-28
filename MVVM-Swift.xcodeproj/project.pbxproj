@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		447124432595C44500D736C5 /* HogeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447124422595C44500D736C5 /* HogeViewController.swift */; };
 		4490B01F2594761700DA3A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4490B01E2594761700DA3A1A /* AppDelegate.swift */; };
 		4490B0212594761700DA3A1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4490B0202594761700DA3A1A /* SceneDelegate.swift */; };
 		4490B0232594761700DA3A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4490B0222594761700DA3A1A /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		4490B02B2594761A00DA3A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4490B0292594761A00DA3A1A /* LaunchScreen.storyboard */; };
 		4490B0362594761A00DA3A1A /* MVVM_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4490B0352594761A00DA3A1A /* MVVM_SwiftTests.swift */; };
 		4490B0412594761A00DA3A1A /* MVVM_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4490B0402594761A00DA3A1A /* MVVM_SwiftUITests.swift */; };
+		4490B052259478D300DA3A1A /* HogeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4490B051259478D300DA3A1A /* HogeModel.swift */; };
+		4490B057259478E600DA3A1A /* HogeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4490B056259478E600DA3A1A /* HogeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		447124422595C44500D736C5 /* HogeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewController.swift; sourceTree = "<group>"; };
 		4490B01B2594761700DA3A1A /* MVVM-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4490B01E2594761700DA3A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4490B0202594761700DA3A1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		4490B03C2594761A00DA3A1A /* MVVM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4490B0402594761A00DA3A1A /* MVVM_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwiftUITests.swift; sourceTree = "<group>"; };
 		4490B0422594761A00DA3A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4490B051259478D300DA3A1A /* HogeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeModel.swift; sourceTree = "<group>"; };
+		4490B056259478E600DA3A1A /* HogeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				4490B01E2594761700DA3A1A /* AppDelegate.swift */,
+				4490B051259478D300DA3A1A /* HogeModel.swift */,
+				4490B056259478E600DA3A1A /* HogeViewModel.swift */,
+				447124422595C44500D736C5 /* HogeViewController.swift */,
 				4490B0202594761700DA3A1A /* SceneDelegate.swift */,
 				4490B0222594761700DA3A1A /* ViewController.swift */,
 				4490B0242594761700DA3A1A /* Main.storyboard */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4490B0232594761700DA3A1A /* ViewController.swift in Sources */,
+				4490B057259478E600DA3A1A /* HogeViewModel.swift in Sources */,
 				4490B01F2594761700DA3A1A /* AppDelegate.swift in Sources */,
+				447124432595C44500D736C5 /* HogeViewController.swift in Sources */,
+				4490B052259478D300DA3A1A /* HogeModel.swift in Sources */,
 				4490B0212594761700DA3A1A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
